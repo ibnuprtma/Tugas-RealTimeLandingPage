@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bioskop Indonesia</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+
+  <div class="container">
+    <div class="body-content grid" id="body-content">
+      
+      <center>
+        <h3>Change Themes</h3>
+        <button onclick="blue()">blue</button>
+        <button onclick="red()">red</button>
+        <button onclick="green()">green</button>
+        <button onclick="back()">default</button>
+      </center>
+
+      <div class="body-content-panel" id="body-content-panel">
+        <h3>JADWAL BIOSKOP</h3> 
+      </div>
+      <div class="body-content-option">   
+        <select onchange="val()" id="select_id">
+          <option>Pilih salah satu</option>
+          <option value="senin">Senin</option>
+          <option value="selasa">Selesa</option>
+          <option value="rabu">Rabu</option>
+        </select>
+      </div>
+      <div class="body-content-time" id="body-content-time">
+        <div class="times" id="select_time">
+          <div class="option" id="1" value="1"> 10.00 WIB - 13.00 WIB </div>
+          <div class="option" id="2" value="2"> 10.00 WIB - 13.00 WIB </div>
+          <div class="option" id="3" value="3"> 10.00 WIB - 13.00 WIB </div>
+          <div class="option" id="4" value="4"> 10.00 WIB - 13.00 WIB </div>
+        </div>
+      </div>
+      <div class="kotaks">
+        <div class="kotak1" id="kotak1" onclick="kotak1()">
+          <img src="./img/1.svg" alt="" width="180" id="img1">
+          <h5>Theater 1</h5>
+        </div>
+        <div class="kotak2" id="kotak2" onclick="kotak2()">
+          <img src="./img/2.svg" alt="" width="180" id="img2">
+          <h5>Theater 2</h5>
+        </div>
+      </div>
+      <div id="demo">
+          <iframe width="100%" height="215" id="video"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+          </iframe>
+      </div>
+    </div>
+    <div class="body-image grid">
+      <img src="./img/movie.svg" alt="" width="500">
+      <img src="./img/2.svg" alt="" width="500" style="margin-top:90px;">
+    </div>  
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>

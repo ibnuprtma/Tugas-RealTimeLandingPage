@@ -1,0 +1,133 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  height: 1000px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: auto;
+}
+
+.container .grid{
+  display: inline-block;
+  min-height: 100%;
+  width: 425px;
+  padding: 80px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.body-content{
+  box-shadow: 3px 10px 39px -10px rgba(0,0,0,0.75);
+  border-radius: 20px;
+}
+
+.body-content-panel{
+  width: 90%;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.body-content-panel h3{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.body-content-option{
+  width: 80%;
+  height: 30px;
+  background-color: black;
+  margin: 40px auto;
+}
+
+select{
+  width: 100%;
+  border: none;
+  list-style: none;
+  height: 100%;
+  background: white;
+  color: black;
+  box-shadow: 3px 10px 39px -10px rgba(0,0,0,0.75);
+}
+
+.body-content-time{
+  width: 100%;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.body-content-time .times{
+  width: 70%;
+  height: 80%;
+  margin: 25px auto;
+  padding: 10px
+}
+
+#hari{
+  height: 40px;
+}
+
+.option{
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  border: 1px solid black;
+  line-height: 25px;
+  text-align: center;
+}
+
+.kotaks{
+  margin-top: 12px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.kotaks .kotak1{
+  min-height: 150px;
+  width: 200px;
+  box-shadow: 3px 10px 39px -10px rgba(0,0,0,0.75);
+  text-align: center;
+  border-radius: 20px;
+  padding: 4px;
+  margin: 20px -20px;
+}
+
+.kotaks .kotak2{
+  min-height: 150px;
+  width: 200px;
+  box-shadow: 3px 10px 39px -10px rgba(0,0,0,0.75);
+  text-align: center;
+  border-radius: 20px;
+  padding: 4px;
+  margin: 20px 50px;
+}
+
+button{
+  border:none;
+  height: 20px;
+  width: 50px;
+  border-radius: 20px;
+}
+
+button:hover{
+  background-color: rgba(214, 143, 143, 0.75);
+}
+
+.option:hover{
+  background-color: rgba(214, 143, 143, 0.75);
+}
+
+.kotak1:hover,.kotak2:hover{
+  background-color: rgba(218, 203, 203, 0.192);
+
+}
